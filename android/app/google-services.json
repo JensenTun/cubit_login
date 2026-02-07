@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "897030007203",
+    "project_id": "myfirebase-b9c9d",
+    "storage_bucket": "myfirebase-b9c9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897030007203:android:a4249f27213bbaa30f9216",
+        "android_client_info": {
+          "package_name": "com.jensen.cubit_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEaf0fLq9UV_h4-7-sq8bdjeUWmeCPkiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897030007203:android:d850e979f0cfaae30f9216",
+        "android_client_info": {
+          "package_name": "com.jensen.firebase_provider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEaf0fLq9UV_h4-7-sq8bdjeUWmeCPkiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897030007203:android:3bd8146d1e34bd910f9216",
+        "android_client_info": {
+          "package_name": "com.jensen.firestoreproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEaf0fLq9UV_h4-7-sq8bdjeUWmeCPkiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897030007203:android:f7aba57c31a29d8b0f9216",
+        "android_client_info": {
+          "package_name": "com.jensen.myfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEaf0fLq9UV_h4-7-sq8bdjeUWmeCPkiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897030007203:android:154c13862ce298f10f9216",
+        "android_client_info": {
+          "package_name": "com.jensen.myfirebase.firebase_flutterbloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEaf0fLq9UV_h4-7-sq8bdjeUWmeCPkiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897030007203:android:c678ab2bcca20dc30f9216",
+        "android_client_info": {
+          "package_name": "dev.expo.notificationsetup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEaf0fLq9UV_h4-7-sq8bdjeUWmeCPkiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
