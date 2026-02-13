@@ -43,9 +43,9 @@ class _LoginScreenState extends State<LoginScreen> {
 
           if (state is AuthAuthenticated) {
             Navigator.pop(context);
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text("Login Successful 🎉")),
-            );
+            ScaffoldMessenger.of(
+              context,
+            ).showSnackBar(const SnackBar(content: Text("Login Successful")));
           }
 
           if (state is AuthFailure) {

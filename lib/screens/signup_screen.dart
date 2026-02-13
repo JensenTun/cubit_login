@@ -47,9 +47,9 @@ class _SignupScreenState extends State<SignupScreen> {
 
           if (state is AuthAuthenticated) {
             Navigator.pop(context);
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text("Signup successful 🎉")),
-            );
+            ScaffoldMessenger.of(
+              context,
+            ).showSnackBar(const SnackBar(content: Text("Signup successful")));
           }
 
           if (state is AuthFailure) {
