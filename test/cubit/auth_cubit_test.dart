@@ -20,17 +20,20 @@ void main() {
     await authCubit.close();
   });
 
-  testWidgets('Login screen shows email & password fields', (tester) async {
+  testWidgets('Login screen shows email & password fields', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         home: BlocProvider<AuthCubit>.value(
           value: authCubit,
-          child: const LoginScreen(),
+          child: const Scaffold(body: LoginScreen()),
         ),
       ),
     );
 
-    await tester.pump(); // important
+    // let animations & listeners settle
+    await tester.pumpAndSettle();
 
     expect(find.byType(TextFormField), findsNWidgets(2));
     expect(find.text('Login'), findsOneWidget);
