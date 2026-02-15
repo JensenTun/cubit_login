@@ -32,7 +32,12 @@ class _LoginScreenState extends State<LoginScreen> {
 
     return Scaffold(
       body: BlocListener<AuthCubit, AuthState>(
+        listenWhen: (previous, current) =>
+            current is AuthLoading ||
+            current is AuthAuthenticated ||
+            current is AuthFailure,
         listener: (context, state) {
+          if (!context.mounted) return;
           if (state is AuthLoading) {
             showDialog(
               context: context,
