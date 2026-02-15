@@ -27,12 +27,11 @@ void main() {
       MaterialApp(
         home: BlocProvider<AuthCubit>.value(
           value: authCubit,
-          child: const Scaffold(body: LoginScreen()),
+          child: const LoginScreen(),
         ),
       ),
     );
 
-    // let animations & listeners settle
     await tester.pumpAndSettle();
 
     expect(find.byType(TextFormField), findsNWidgets(2));
