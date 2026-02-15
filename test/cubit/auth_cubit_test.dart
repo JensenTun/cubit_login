@@ -25,10 +25,10 @@ void main() {
   ) async {
     await tester.pumpWidget(
       MaterialApp(
-        home: BlocProvider<AuthCubit>.value(
-          value: authCubit,
-          child: const LoginScreen(),
-        ),
+        home: const LoginScreen(),
+        builder: (context, child) {
+          return BlocProvider<AuthCubit>.value(value: authCubit, child: child!);
+        },
       ),
     );
 
